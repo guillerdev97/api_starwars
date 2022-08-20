@@ -1,0 +1,99 @@
+#formnewcharacter {
+    border: none;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background: rgba(151, 151, 151, 0.2);
+    width: 40rem;
+    padding-top: 1rem;
+
+}
+
+#input__form {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(5); 
+}
+
+h3 {
+    padding-bottom: 0.7rem;
+    font-family: 'Concert One';
+    color: #fff;
+}
+h4 {
+    position: absolute;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+#title {
+    position: relative;
+    color: beige;
+    text-align: center;
+    font-size: 1.8rem;
+
+}
+
+#upload {
+    width: 1rem;
+    height: 2rem;
+}
+ 
+.names, .genders, .homes, .species{
+    color: #000;
+    margin: 2px;
+    border-radius: 5px;
+    width: 11rem;
+    height: 1.5rem;
+}
+
+#name,
+#gender,
+#home-world,
+#image,
+#specie {
+    text-align: right;
+    margin: 3px;
+    margin-right: 50px;
+}
+#name {
+    grid-area: 1 / 1 ;
+}
+
+#gender {
+    grid-template-columns: 1fr 1fr;
+    grid-area: 2 / 1 ;
+}
+#home-world {
+    grid-area: 3 / 1 ;
+}
+
+#specie {
+    grid-area: 4 / 1 ;
+}
+
+#image {
+    grid-area: 5 / 1 ;
+    margin-right:0px ;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#btn-add {
+    grid-area: 5 / 2 ;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 2rem;
+    
+}
+#send {
+    background-color: #666161 ;
+    border: none;
+    color: beige;
+    height: 2.2rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    font-family: 'Concert One';
+}
+
+

@@ -1,0 +1,54 @@
+.ficha {
+    height: 20vh;
+    width: 13vw;
+    margin-bottom:1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    padding-top: 2em;
+}
+
+h4 {
+    color: white;
+}
+
+button {
+    background-color: rgba(151, 151, 151, 0);
+    border: none;
+    margin-left: 12vw;
+    cursor: pointer;
+}
+
+
+@media (max-width: 400px) {
+    .ficha {
+        height: 20vh;
+        width: 30vw;
+    }
+}
+
+.icon__favorite {
+    height: 30px;
+    margin: auto;
+    padding-left: 3rem;
+}
+
+
+.icon__favorite:hover {
+    height: 20px;
+    margin: auto;
+}
+
+@media (max-width: 400px){
+    .icon__favorite {
+        height: 20px;
+        margin: auto;
+        margin-top: 1rem;
+        
+    }
+}
