@@ -1,76 +1,46 @@
+# Star Wars Guide
 
-# Guide star star Wars
+Vue 3 JS project using HTML, CSS and JavaScript. We use the frameWork VUE to make an SPA and make a reactive program.
+We fetch an external Star Wars API.
 
+In this application you can find Star Wars characters and you can choose your favorite characters. Other operations you can do are add some characters with images, edit the information of the characters and delete characters of the favorite section.
 
-This project is elaborated in HTML, CSS and JavaScript language. We use the FrameWork VUE to make the program reactive and thus achieve Single Page.
-An external Star Wars API was consumed.
-The program consists of consuming an external api, with which we develop a web page where we will find our Star Wars characters, we will be able to choose our favorite characters, add some characters with images, edit the information of the characters, and eliminate the added characters. .
+## Run locally
 
-
-## Authors
-
-- [@David soto]
-- [@Guillermo Garcia]
-- [@Lucy Alvarado]
-- [@Kerim Ozkan]
-- [@Max Lobos]
-
-
-
-
-## Appendix
-
-1) Home
-2) favorite
-3) form 
-
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-|  | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
-
-
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
-
-
-## Documentation
-
-[Documentation__Figma](https://www.figma.com/file/mcyeDUcUtnXn0uMNeCDiVS/API_STARWARS?node-id=0%3A1)
-[Documentation __Git_Kraken](https://app.gitkraken.com/glo/board/YrG9iuzcZgARGGNO)
-
-## Installation
-
-Install api-star-wars with npm
+Install star-wars-guide with npm
 
 ```bash
   npm install 
-  cd api-star-wars
+  cd star-wars-guide
   npm lint install
   npm run dev
 ```
     
 ![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1041px-Star_Wars_Logo.svg.png)
 
+## Work methodology
 
-## Used By
+- TDD
+- Agile
+- Scrum
+- Pair programming
 
-This project is used by the following companies:
+## Versions
 
-- Factoria F5
+**main:** final and stable version of the collaborative project.<br>
+**develop:** develop branch of main.<br>
+**v2.0:** my own version starting from stable main version.<br>
+**develop2.0:** develop branch of v2.0.
 
+## Credits
 
-## Demo
+**Authors:**<br>
+Kerim Ozkan - [ozknkrm](https://github.com/ozknkrm)<br>
+David Soto - [JDDeveloper1](https://github.com/JDDeveloper1)<br>
+Guillermo García - [guillerdev97](https://github.com/guillerdev97)
+Lucy Alvarado - [lucyalvarado4692](https://github.com/lucyalvarado4692)
+Maximiliano Lobos - [Mlobos1111](https://github.com/Mlobos1111)
 
-https://drive.google.com/file/d/1Sj0uagAXXvlxgerLADiSwZssJ7x4t08o/view?usp=sharing
+## License
 
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/guillerdev97/star-wars-guide/blob/main/LICENSE) for details.
