@@ -37,8 +37,8 @@ Install star-wars-guide with npm
 **Authors:**<br>
 Kerim Ozkan - [ozknkrm](https://github.com/ozknkrm)<br>
 David Soto - [JDDeveloper1](https://github.com/JDDeveloper1)<br>
-Guillermo García - [guillerdev97](https://github.com/guillerdev97)
-Lucy Alvarado - [lucyalvarado4692](https://github.com/lucyalvarado4692)
+Guillermo García - [guillerdev97](https://github.com/guillerdev97)<br>
+Lucy Alvarado - [lucyalvarado4692](https://github.com/lucyalvarado4692)<br>
 Maximiliano Lobos - [Mlobos1111](https://github.com/Mlobos1111)
 
 ## License
